@@ -43,6 +43,7 @@ Now that I have a better understanding of it, and the way it works translated fr
 [Back to Top](#powershell-mapping-data-visualization)
 
 **Parameters**
+
 Parameter | Type | Description
 ----------|------|------------
 `fips` | string | Specifies the [FIPS Code](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standard_state_code) corresponding to the state to generate a choropleth for (the 50 states and Puerto Rico are supported).
