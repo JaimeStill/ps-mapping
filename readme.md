@@ -50,7 +50,11 @@ Parameter | Type | Description
 `height` | int | Height in pixels of the generated choropleth
 `scheme` | string | A supported [d3-scale-chromatic](https://github.com/d3/d3-scale-chromatic) scheme. Should start with *scheme* and accept an array index, for instance, `d3.schemeBuPu[k]`
 
-**Demonstration**
+### Demonstrations
+[Back to Top](#powershell-mapping-data-visualization)
+
+**Florida**
+
 ```
 create-choropleth.ps1 -fips "12" -scheme "schemeSpectral"
 ```
@@ -58,3 +62,23 @@ create-choropleth.ps1 -fips "12" -scheme "schemeSpectral"
 Generates the following:
 
 [![florida](https://user-images.githubusercontent.com/14102723/68510743-48c21f00-0242-11ea-889b-928869d2afe0.png)](https://user-images.githubusercontent.com/14102723/68510743-48c21f00-0242-11ea-889b-928869d2afe0.png)
+
+**North Carolina**
+
+```
+create-choropleth.ps1 -fips "37" -scheme "schemeBuGn"
+```
+
+Generates the following:
+
+[![north-carolina](https://user-images.githubusercontent.com/14102723/68511396-de11e300-0243-11ea-90be-c879a5e28062.png)](https://user-images.githubusercontent.com/14102723/68511396-de11e300-0243-11ea-90be-c879a5e28062.png)
+
+**Virginia**
+
+```
+create-choropleth.ps1 -fips "51" -scheme "schemeBuPu"
+```
+
+Generates the following:
+
+[![virginia](https://user-images.githubusercontent.com/14102723/68511512-229d7e80-0244-11ea-98c6-90a951306f73.png)](https://user-images.githubusercontent.com/14102723/68511512-229d7e80-0244-11ea-98c6-90a951306f73.png)
